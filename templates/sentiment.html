@@ -10,18 +10,7 @@
         <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" class="avatar"></a>
             <h1>Sentiment Analysis</h1>
 
-            <!--<form method="post" name="Userinput" id="Userinput" action="/sentiment">
-                <p>UserID</p>
-                <input type="text" name="userid" placeholder="Enter UserID without @">
-                <p>HashTag</p>
-                <input type="text" name="hashtag" placeholder="Enter HashTag with #">
-                <center><button type="submit" class="btn btn-light btn-outline-success" id="sendMessageButton">Get Analysis</button></center>
-                <br>
-                <center><a href="#"><h6 style="color: red" >{{ error }}</h6></a></center>
-                <a href="https://bit.ly/2Ky3ho6"><h5>Yogesh Nile</h5></a>
-            </form>
-            -->
-
+ 
             <p style="color: #008000">Positive:- {{ positive }} %</p><center><p style="font-size: 35px">&#128578;</p></center>
             
             <p style="color: red">Negative:- {{ negative }} %</p><center><p style="font-size: 35px">&#128577;</p></center>
